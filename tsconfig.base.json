@@ -4,6 +4,7 @@
         "sourceMap": true,
         "outDir": "js",
         //"strict": true,
+        "noImplicitAny": true,
         "strictNullChecks": true,
         "watch": true
     }

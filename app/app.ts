@@ -28,3 +28,13 @@ function postScore(score: number, playerName: string = 'MultiMath Player'): void
 }
 
 document.getElementById('startGame')!.addEventListener('click', startGame);
+
+/*
+function logMessage(message: string): void {
+    console.log(message);
+}
+*/
+
+const logMessage = (message: string) => console.log(message);
+
+logMessage('Welcome to MultiMath!');

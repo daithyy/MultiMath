@@ -5,8 +5,5 @@
         "outDir": "js",
         "strict": true,
         "watch": true
-    },
-    "files": [
-        "app/app.ts"
-    ]
+    }
 }

@@ -3,7 +3,8 @@
     {
         "sourceMap": true,
         "outDir": "js",
-        "strict": true,
+        //"strict": true,
+        "strictNullChecks": true,
         "watch": true
     }
 }

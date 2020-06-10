@@ -1,8 +1,3 @@
-/// <reference path="utility.ts" />
-/// <reference path="result.ts" />
-/// <reference path="player.ts" />
-/// <reference path="scoreboard.ts" />
-
 import { getValue } from './utility';
 import { Result } from './result';
 import { Player } from './player';

@@ -1,6 +1,3 @@
-/// <reference path="player.ts" />
-/// <reference path="game.ts" />
-
 import { Player } from './player';
 import { Game } from './game';
 import * as Helpers from './utility';

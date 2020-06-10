@@ -3,8 +3,13 @@
 /// <reference path="player.ts" />
 /// <reference path="scoreboard.ts" />
 
-class Game {
-    private scoreboard: Scoreboard = new Scoreboard();
+import { getValue } from './utility';
+import { Result } from './result';
+import { Player } from './player';
+import { Scoreboard as ResultPanel } from './scoreboard';
+
+export class Game {
+    private scoreboard: ResultPanel = new ResultPanel();
 
     constructor(
         public player: Player, 
@@ -35,7 +40,7 @@ class Game {
 
         // Loop through the text boxes and calculate the number that are correct
         for (let i = 1; i <= this.problemCount; i++) {
-            const answer: number = Number(Utility.getInputValue('answer' + i));
+            const answer: number = Number(getValue('answer' + i));
             if (i * this.factor === answer) {
                 score ++;
             }
